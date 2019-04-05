@@ -1,35 +1,19 @@
-# Desafio task board
+# task-board
 
-## Objetivo
+>  Talentify - Davi Roberto
 
-_Utilizando Vue.js, criar um web app que permitirá ao usuário criar e re-ordenar múltiplas listas de tarefa._
 
-1. App deve ser iniciado com 1 coluna vazia
-1. App deverá permitir que o usuário:
-    - Adicione, remova, reordene tarefas
-    - Adicione, remova, reordende colunas
-    - Mova tarefa entre diferentes colunas
-    - Ordene as tarefas de uma coluna alfabeticamente
-1. Id e texto das tarefas devem estar sempre visíveis
+##Observações: 
 
-![Mockup](https://i.imgur.com/bbmNy8q.png)
+- Pra Executar o projeto, basta abrir o terminal de sua máquina na pasta 'taskBoard_DaviRoberto' e executar: 
+    1º **npm install** - Instalar todas dependências do projeto
+    2º **npm run dev** - Executar o projeto que irá rodar localmente na porta 8097. Caso a porta 8097 esteja sendo utilizada, o projeto será executado na próxima porta disponível. 
 
-**Tempo estimado:** 2h ~ 3h
+- Para editar o titulo da coluna basta clicar em cima do mesmo, por default está 'New Column';
 
-## Detalhes
+- O projeto não está 100% no IE9/10, devido ao tempo restrito não foi possível deixar compatível, porém tenho conhecimento para fazê-lo; 
 
-- É permitido utilizar frameworks e bibliotecas javascript/css
-- Os dados **não** precisam ser persistidos
-- Funcionalidade e qualidade do código são mais importantes que aparência, então não gaste muito tempo com css
-- Bônus por compatibilidade com IE9+
+- Deixei o 'lint desabilitado', pois não houve necessidade de usa-lo nesse projeto, mas conheço seu conceito e uso quando necessário;
 
-## Instruções
+- Com um tempo maior seria possível implementar melhorias tanto em usabilidade/layout, assim como em código, porém não consegui aplica-las 100% devido ao tempo;
 
-1. Faça um fork do repositório
-1. Desenvolva sua solução
-1. Abra uma pull-request com a solução final
-
-Lembretes:
-- Enviar os arquivos originais e compilados
-- Preferencialmente, a solução deve funcionar como entregue e sem depender de programas externos (docker, banco de dados, ...)
-- Caso sua solução precise de instruções para ser executada, detalhar o passo-a-passo na pull-request ou readme
