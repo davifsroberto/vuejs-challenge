@@ -5,7 +5,7 @@
 
 ##Observações: 
 
-- Pra Executar o projeto, basta abrir o terminal de sua máquina na pasta 'taskBoard_DaviRoberto' e executar: 
+- Para Executar o projeto, basta abrir o terminal de sua máquina na pasta 'taskBoard_DaviRoberto' e executar: 
     1º **npm install** - Instalar todas dependências do projeto
     2º **npm run dev** - Executar o projeto que irá rodar localmente na porta 8097. Caso a porta 8097 esteja sendo utilizada, o projeto será executado na próxima porta disponível. 
 
